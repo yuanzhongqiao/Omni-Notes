@@ -92,7 +92,7 @@ public class TagsHelper {
   }
 
   public static String removeTags(String text, List<Tag> tagsToRemove) {
-    if (StringUtils.isEmpty(text)) {
+    if (StringUtils.isBlank(text)) {
       return text;
     }
     var textCopy = new AtomicReference<>(text);

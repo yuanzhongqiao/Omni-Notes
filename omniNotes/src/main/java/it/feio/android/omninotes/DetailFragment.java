@@ -2102,39 +2102,48 @@ public class DetailFragment extends BaseFragment implements OnReminderPickedList
   }
 
   private void tagNote(List<Tag> tags, Integer[] selectedTags, Note note) {
-    Pair<String, List<Tag>> taggingResult = TagsHelper.addTagToNote(tags, selectedTags, note);
-
-    StringBuilder sb;
-    if (Boolean.TRUE.equals(noteTmp.isChecklist())) {
-      CheckListViewItem mCheckListViewItem = mChecklistManager.getFocusedItemView();
-      if (mCheckListViewItem != null) {
-        sb = new StringBuilder(mCheckListViewItem.getText());
-        sb.insert(contentCursorPosition, " " + taggingResult.first + " ");
-        mCheckListViewItem.setText(sb.toString());
-        mCheckListViewItem.getEditText()
-            .setSelection(contentCursorPosition + taggingResult.first.length()
-                + 1);
+    var taggingResult = TagsHelper.addTagToNote(tags, selectedTags, note);
+    if (!taggingResult.first.isEmpty()) {
+      if (Boolean.TRUE.equals(noteTmp.isChecklist())) {
+        tagChecklistNote(taggingResult);
       } else {
-        binding.detailTitle.append(" " + taggingResult.first);
-      }
-    } else {
-      sb = new StringBuilder(getNoteContent());
-      if (binding.fragmentDetailContent.detailContent.hasFocus()) {
-        sb.insert(contentCursorPosition, " " + taggingResult.first + " ");
-        binding.fragmentDetailContent.detailContent.setText(sb.toString());
-        binding.fragmentDetailContent.detailContent
-            .setSelection(contentCursorPosition + taggingResult.first.length() + 1);
-      } else {
-        if (getNoteContent().trim().length() > 0) {
-          sb.append(System.getProperty("line.separator"))
-              .append(System.getProperty("line.separator"));
-        }
-        sb.append(taggingResult.first);
-        binding.fragmentDetailContent.detailContent.setText(sb.toString());
+        tagTextNote(taggingResult);
       }
     }
-
     eventuallyRemoveDeselectedTags(taggingResult.second);
+  }
+
+  private void tagTextNote(Pair<String, List<Tag>> taggingResult) {
+    var sb = new StringBuilder(getNoteContent());
+    var detailContent = binding.fragmentDetailContent.detailContent;
+    if (detailContent.hasFocus()) {
+      if (!taggingResult.first.isEmpty()) {
+        sb.insert(contentCursorPosition, " " + taggingResult.first + " ");
+      }
+      detailContent.setText(sb.toString());
+      detailContent.setSelection(contentCursorPosition + taggingResult.first.length() + 1);
+    } else {
+      if (!getNoteContent().trim().isEmpty()) {
+        sb.append(System.getProperty("line.separator")).append(System.getProperty("line.separator"));
+      }
+      sb.append(taggingResult.first);
+      detailContent.setText(sb.toString());
+    }
+  }
+
+  private void tagChecklistNote(Pair<String, List<Tag>> taggingResult) {
+    StringBuilder sb;
+    var checkListItem = mChecklistManager.getFocusedItemView();
+    if (checkListItem != null) {
+      sb = new StringBuilder(checkListItem.getText());
+      if (!taggingResult.first.isEmpty()) {
+        sb.insert(contentCursorPosition, " " + taggingResult.first + " ");
+      }
+      checkListItem.setText(sb.toString());
+      checkListItem.getEditText().setSelection(contentCursorPosition + taggingResult.first.length() + 1);
+    } else {
+      binding.detailTitle.append(" " + taggingResult.first);
+    }
   }
 
   private void eventuallyRemoveDeselectedTags(List<Tag> tagsToRemove) {
