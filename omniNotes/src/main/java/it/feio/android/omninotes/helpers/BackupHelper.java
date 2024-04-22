@@ -66,6 +66,7 @@ import rx.Observable;
 public final class BackupHelper {
 
   public static void exportNotes(DocumentFileCompat backupDir) {
+    backupDir.createFile("", ".nomedia");
     for (Note note : DbHelper.getInstance(true).getAllNotes(false)) {
       exportNote(backupDir, note);
     }

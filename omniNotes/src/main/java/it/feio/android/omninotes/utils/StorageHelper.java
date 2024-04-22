@@ -299,26 +299,6 @@ public class StorageHelper {
         + File.separator + Constants.EXTERNAL_STORAGE_FOLDER + File.separator);
   }
 
-  public static File getOrCreateBackupDir(String backupName) {
-    File backupDir = new File(getOrCreateExternalStoragePublicDir(), backupName);
-    if (!backupDir.exists() && backupDir.mkdirs()) {
-      createNoMediaFile(backupDir);
-    }
-    return backupDir;
-  }
-
-
-  private static void createNoMediaFile(File folder) {
-    try {
-      boolean created = new File(folder, ".nomedia").createNewFile();
-      if (!created) {
-        LogDelegate.w("File .nomedia already existing into " + folder.getAbsolutePath());
-      }
-    } catch (IOException e) {
-      LogDelegate.e("Error creating .nomedia file into backup folder");
-    }
-  }
-
 
   public static File getSharedPreferencesFile(Context mContext) {
     File appData = mContext.getFilesDir().getParentFile();

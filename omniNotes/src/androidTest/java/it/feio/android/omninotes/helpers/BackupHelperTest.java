@@ -89,7 +89,8 @@ public class BackupHelperTest extends BaseAndroidTestCase {
     BackupHelper.exportNotes(backupDir);
 
     assertTrue(backupDir.exists());
-    assertEquals(0, backupDir.listFiles().size());
+    assertTrue(backupDir.findFile(".nomedia").exists());
+    assertEquals(1, backupDir.listFiles().size());
   }
 
   @Test
@@ -101,7 +102,8 @@ public class BackupHelperTest extends BaseAndroidTestCase {
     BackupHelper.exportNotes(backupDir);
 
     assertTrue(backupDir.exists());
-    assertEquals(4, backupDir.listFiles().size());
+    assertTrue(backupDir.findFile(".nomedia").exists());
+    assertEquals(5, backupDir.listFiles().size());
   }
 
   @Test
@@ -109,6 +111,7 @@ public class BackupHelperTest extends BaseAndroidTestCase {
     Note note = createTestNote("test title", "test content", 0);
 
     BackupHelper.exportNote(backupDir, note);
+
     var noteFiles = from(backupDir.listFiles())
         .filter(f -> f.getName().matches("\\d{13}.json")).toList().toBlocking().single();
     assertEquals(1, noteFiles.size());
