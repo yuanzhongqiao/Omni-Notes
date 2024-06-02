@@ -1,156 +1,182 @@
- ![icon](assets/logo.png)
+<div class="Box-sc-g0xbh4-0 bJMeLZ js-snippet-clipboard-copy-unpositioned" data-hpc="true"><article class="markdown-body entry-content container-lg" itemprop="text"><p dir="auto"><a target="_blank" rel="noopener noreferrer" href="/federicoiosue/Omni-Notes/blob/develop/assets/logo.png"><img src="/federicoiosue/Omni-Notes/raw/develop/assets/logo.png" alt="图标" style="max-width: 100%;"></a></p>
+<div class="markdown-heading" dir="auto"><h1 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Omni-Notes</font></font></h1><a id="user-content-omni-notes" class="anchor" aria-label="固定链接：Omni-Notes" href="#omni-notes"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><a href="https://www.gnu.org/licenses/gpl-3.0" rel="nofollow"><img src="https://camo.githubusercontent.com/6be00b1b55f8b9b6f6d85fa810b501a37e0d48bf99e98bb4381e92caeff02619/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4c6963656e73652d47504c76332d626c75652e737667" alt="执照" data-canonical-src="https://img.shields.io/badge/License-GPLv3-blue.svg" style="max-width: 100%;"></a>
+<a href="https://github.com/federicoiosue/Omni-Notes/actions?query=workflow%3ACI"><img src="https://github.com/federicoiosue/Omni-Notes/workflows/CI/badge.svg" alt="CI 工作流程" style="max-width: 100%;"></a>
+<a href="https://github.com/federicoiosue/Omni-Notes/actions?query=workflow%3ACodeQL"><img src="https://github.com/federicoiosue/Omni-Notes/workflows/CodeQL/badge.svg" alt="CodeQL 工作流" style="max-width: 100%;"></a>
+<a href="https://sonarcloud.io/dashboard?id=omni-notes" rel="nofollow"><img src="https://camo.githubusercontent.com/69ce67c36be47a5d764af39173b7a77ff6caf0042da35d2cded8e2ecce9bbb4e/68747470733a2f2f736f6e6172636c6f75642e696f2f6170692f70726f6a6563745f6261646765732f6d6561737572653f70726f6a6563743d6f6d6e692d6e6f746573266d65747269633d636f766572616765" alt="Sonarcloud 覆盖范围" data-canonical-src="https://sonarcloud.io/api/project_badges/measure?project=omni-notes&amp;metric=coverage" style="max-width: 100%;"></a>
+<a href="https://sonarcloud.io/dashboard?id=omni-notes" rel="nofollow"><img src="https://camo.githubusercontent.com/7b0ebb5c746246bacc347258c3873f9862777a3aa535ebe8a959db97b42f089f/68747470733a2f2f736f6e6172636c6f75642e696f2f6170692f70726f6a6563745f6261646765732f6d6561737572653f70726f6a6563743d6f6d6e692d6e6f746573266d65747269633d7371616c655f726174696e67" alt="Sonarcloud 可维护性" data-canonical-src="https://sonarcloud.io/api/project_badges/measure?project=omni-notes&amp;metric=sqale_rating" style="max-width: 100%;"></a>
+<a href="https://crowdin.com/project/omni-notes" rel="nofollow"><img src="https://camo.githubusercontent.com/6db77958fe98b5c6585b42ec48e2bb7957f8bac00b7b7f02e097f04f8db7b2ef/68747470733a2f2f64333232637174353834626f346f2e636c6f756466726f6e742e6e65742f6f6d6e692d6e6f7465732f6c6f63616c697a65642e706e67" alt="克罗丁" data-canonical-src="https://d322cqt584bo4o.cloudfront.net/omni-notes/localized.png" style="max-width: 100%;"></a>
+<a href="https://github.com/federicoiosue/Omni-Notes/releases/latest"><img src="https://camo.githubusercontent.com/af7c27da12f42a0aa36d6e281638edcd2286ea8448fe9ea79852be8063091751/68747470733a2f2f62616467656e2e6e65742f6769746875622f72656c656173652f666564657269636f696f7375652f4f6d6e692d4e6f746573" alt="GitHub 发布" data-canonical-src="https://badgen.net/github/release/federicoiosue/Omni-Notes" style="max-width: 100%;"></a>
+<a href="https://github.com/federicoiosue/Omni-Notes/releases"><img src="https://camo.githubusercontent.com/bf5f327c225777bfa313b93e4c17107b912edeb4b5bdfb4ce687a1b9a30744a1/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f646f776e6c6f6164732f666564657269636f696f7375652f4f6d6e692d4e6f7465732f746f74616c3f6c6162656c3d476974687562253230446f776e6c6f616473" alt="GitHub 发布" data-canonical-src="https://img.shields.io/github/downloads/federicoiosue/Omni-Notes/total?label=Github%20Downloads" style="max-width: 100%;"></a></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Omni-Notes 是一款</font></font><b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">开源笔记</font></font></b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">应用程序，旨在提供</font></font><b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">简洁的界面</font></font></b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">和</font></font><b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">智能的</font></font></b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">行为。此应用程序扩展了其他基本应用程序的通用笔记功能，并允许用户附加图像和视频文件、使用各种小工具、标记和组织笔记、搜索笔记以及自定义应用程序 UI。</font></font></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">该项目的灵感来自于缺乏与旧手机和旧版 Android 兼容的应用程序。它旨在提供有吸引力的外观并遵循 Google 操作系统的最新设计指南，而旧设备目前无法使用该系统。</font></font></p>
+<p dir="auto"><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">关注事态发展并在 Telegram 社区</font></font><a href="https://t.me/omninotes" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">https://t.me/omninotes上发布您的评论和建议</font></font></a></strong></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我们始终欢迎帮助保持翻译更新，如果您愿意帮忙，请查看</font></font><em><a href="https://translate.omninotes.app" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">https://translate.omninotes.app</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">上的翻译项目。</font></font></em></p>
+<a href="https://f-droid.org/repository/browse/?fdid=it.feio.android.omninotes.foss" rel="nofollow">
+<img src="https://camo.githubusercontent.com/6079bf6adc19d9fc0b1c7b3088a957e0f6f50cfa9a872f7404bb9b67cc57c6be/68747470733a2f2f662d64726f69642e6f72672f62616467652f6765742d69742d6f6e2e706e67" alt="在 F-Droid 上获取" height="90" data-canonical-src="https://f-droid.org/badge/get-it-on.png" style="max-width: 100%;"></a>
+<a href="https://play.google.com/store/apps/details?id=it.feio.android.omninotes" rel="nofollow">
+<img src="https://camo.githubusercontent.com/b7c355557ebfc69c16957749e0e505786b6961aca66ec502c2766712c8c3951f/68747470733a2f2f706c61792e676f6f676c652e636f6d2f696e746c2f656e5f75732f6261646765732f696d616765732f67656e657269632f656e2d706c61792d62616467652e706e67" alt="从 Google Play 获取" height="90" data-canonical-src="https://play.google.com/intl/en_us/badges/images/generic/en-play-badge.png" style="max-width: 100%;"></a>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果您愿意帮助加快开发速度，请按照持续交付原则选择该应用程序的 Alpha 版本：</font></font></p>
+<a href="https://play.google.com/store/apps/details?id=it.feio.android.omninotes.alpha" rel="nofollow">
+<img src="https://camo.githubusercontent.com/b7c355557ebfc69c16957749e0e505786b6961aca66ec502c2766712c8c3951f/68747470733a2f2f706c61792e676f6f676c652e636f6d2f696e746c2f656e5f75732f6261646765732f696d616765732f67656e657269632f656e2d706c61792d62616467652e706e67" alt="从 Google Play 获取" height="90" data-canonical-src="https://play.google.com/intl/en_us/badges/images/generic/en-play-badge.png" style="max-width: 100%;"></a>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">特征</font></font></h2><a id="user-content-features" class="anchor" aria-label="固定链接：功能" href="#features"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">目前已实现以下功能：</font></font></p>
+<ul dir="auto">
+<li><b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">材料设计界面：</font></font></b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">基本的添加、修改、存档、丢弃和删除笔记操作</font></font></li>
+<li><b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">高级导航和共享：</font></font></b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">共享、合并和搜索笔记，导出/导入笔记进行备份</font></font></li>
+<li><b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">媒体附件：</font></font></b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">图像、音频和通用文件附件</font></font></li>
+<li><b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">组织：</font></font></b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">使用标签和类别管理你的笔记</font></font></li>
+<li><b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">特色功能：</font></font></b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">待办事项列表、速写笔记模式、Google Now 集成：只需说“写笔记”，然后输入内容即可</font></font></li>
+<li><b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">小部件功能：</font></font></b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">多个小部件、DashClock 扩展、Android 4.2 锁屏兼容性、主屏幕上的 Notes 快捷方式</font></font></li>
+<li><b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">国际化：</font></font></b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">多语言：支持 30 多种语言：</font></font><a href="https://crowdin.com/project/omni-notes" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">https://crowdin.com/project/omni-notes</font></font></a></li>
+</ul>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">未来发展：</font></font></p>
+<ul dir="auto">
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">注释同步</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">用于管理笔记的 Web 界面（</font></font><a href="https://github.com/federicoiosue/omni-notes-desktop"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">存根项目</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">）</font></font></li>
+</ul>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您可以在应用程序设置菜单中找到完整的更改日志！</font></font></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果您需要有关如何使用该应用程序的帮助，您可以在</font></font><a href="/federicoiosue/Omni-Notes/blob/develop/assets/help/help.md"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在线帮助</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">部分找到所需的一切。</font></font></p>
+<p dir="auto"><a href="https://youtu.be/0Z_-SgT3qYs" title="宣传视频" rel="nofollow"><img src="https://raw.githubusercontent.com/federicoiosue/Omni-Notes/develop/assets/promo_video_thumb.png" alt="宣传视频" style="max-width: 100%;"></a>
+<a target="_blank" rel="noopener noreferrer nofollow" href="https://raw.githubusercontent.com/federicoiosue/Omni-Notes/develop/assets/play_store_pics/02.png"><img src="https://raw.githubusercontent.com/federicoiosue/Omni-Notes/develop/assets/play_store_pics/02.png" alt="" style="max-width: 100%;"></a>
+<a target="_blank" rel="noopener noreferrer nofollow" href="https://raw.githubusercontent.com/federicoiosue/Omni-Notes/develop/assets/play_store_pics/03.png"><img src="https://raw.githubusercontent.com/federicoiosue/Omni-Notes/develop/assets/play_store_pics/03.png" alt="" style="max-width: 100%;"></a>
+<a target="_blank" rel="noopener noreferrer nofollow" href="https://raw.githubusercontent.com/federicoiosue/Omni-Notes/develop/assets/play_store_pics/04.png"><img src="https://raw.githubusercontent.com/federicoiosue/Omni-Notes/develop/assets/play_store_pics/04.png" alt="" style="max-width: 100%;"></a>
+<a target="_blank" rel="noopener noreferrer nofollow" href="https://raw.githubusercontent.com/federicoiosue/Omni-Notes/develop/assets/play_store_pics/05.png"><img src="https://raw.githubusercontent.com/federicoiosue/Omni-Notes/develop/assets/play_store_pics/05.png" alt="" style="max-width: 100%;"></a>
+<a target="_blank" rel="noopener noreferrer nofollow" href="https://raw.githubusercontent.com/federicoiosue/Omni-Notes/develop/assets/play_store_pics/06.png"><img src="https://raw.githubusercontent.com/federicoiosue/Omni-Notes/develop/assets/play_store_pics/06.png" alt="" style="max-width: 100%;"></a>
+<a target="_blank" rel="noopener noreferrer nofollow" href="https://raw.githubusercontent.com/federicoiosue/Omni-Notes/develop/assets/play_store_pics/07.png"><img src="https://raw.githubusercontent.com/federicoiosue/Omni-Notes/develop/assets/play_store_pics/07.png" alt="" style="max-width: 100%;"></a>
+<a target="_blank" rel="noopener noreferrer nofollow" href="https://raw.githubusercontent.com/federicoiosue/Omni-Notes/develop/assets/play_store_pics/08.png"><img src="https://raw.githubusercontent.com/federicoiosue/Omni-Notes/develop/assets/play_store_pics/08.png" alt="" style="max-width: 100%;"></a>
+<a target="_blank" rel="noopener noreferrer nofollow" href="https://raw.githubusercontent.com/federicoiosue/Omni-Notes/develop/assets/play_store_pics/09.png"><img src="https://raw.githubusercontent.com/federicoiosue/Omni-Notes/develop/assets/play_store_pics/09.png" alt="" style="max-width: 100%;"></a>
+<a target="_blank" rel="noopener noreferrer nofollow" href="https://raw.githubusercontent.com/federicoiosue/Omni-Notes/develop/assets/play_store_pics/10.png"><img src="https://raw.githubusercontent.com/federicoiosue/Omni-Notes/develop/assets/play_store_pics/10.png" alt="" style="max-width: 100%;"></a>
+<a target="_blank" rel="noopener noreferrer nofollow" href="https://raw.githubusercontent.com/federicoiosue/Omni-Notes/develop/assets/play_store_pics/11.png"><img src="https://raw.githubusercontent.com/federicoiosue/Omni-Notes/develop/assets/play_store_pics/11.png" alt="" style="max-width: 100%;"></a>
+<a target="_blank" rel="noopener noreferrer nofollow" href="https://raw.githubusercontent.com/federicoiosue/Omni-Notes/develop/assets/play_store_pics/12.png"><img src="https://raw.githubusercontent.com/federicoiosue/Omni-Notes/develop/assets/play_store_pics/12.png" alt="" style="max-width: 100%;"></a></p>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">用户指南</font></font></h2><a id="user-content-user-guide" class="anchor" aria-label="永久链接：用户指南" href="#user-guide"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">查看 wiki 中基于 GIF 的教程：</font></font><a href="https://github.com/federicoiosue/Omni-Notes/wiki"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">LINK</font></font></a></p>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">建造</font></font></h2><a id="user-content-build" class="anchor" aria-label="永久链接：构建" href="#build"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">观看以下终端会话记录，了解如何编译可分发文件或按照以下说明操作
+</font></font><a href="https://asciinema.org/a/102898" rel="nofollow"><img src="https://camo.githubusercontent.com/17279a38a13051a56948b12341095f6fb59f58ee601f002e0be46d8060e3b49d/68747470733a2f2f61736369696e656d612e6f72672f612f3130323839382e706e67" alt="導播" data-canonical-src="https://asciinema.org/a/102898.png" style="max-width: 100%;"></a></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">构建说明：</font></font></p>
+<ul dir="auto">
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">进入你的计算机终端</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">使用存储库链接（</font></font><a href="https://github.com/federicoiosue/Omni-Notes"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">https://github.com/federicoiosue/Omni-Notes</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">）克隆应用程序，这将需要几分钟</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">使用命令 $cd Omni-Notes 进入 Omni-Notes 文件夹</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">使用命令 $git status 检查分支是否是最新的</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">输入命令 $export ANDROID_HOME=/home/fede/Android/Sdk (对于 Windows，输入 $set ANDROID_HOME=/home/fede/Android/Sdk)</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">输入命令 $./gradlew assemble</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">等待几分钟来构建应用程序。</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">使用命令 $ls -l omniNotes/build/outputs/apk 查看构建的输出</font></font></li>
+</ul>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">为了确保构建环境完全符合项目要求，以下命令将创建一个包含编译代码所需的所有工具的容器：</font></font></p>
+<div class="snippet-clipboard-content notranslate position-relative overflow-auto"><pre class="notranslate"><code>cd {project-folder}; rm local.properties; docker rm android-omninotes; docker run -v $PWD:/workspace --name android-omninotes tabrindle/min-alpine-android-sdk:latest bash -c "mkdir -p ~/.android &amp;&amp; touch ~/.android/repositories.cfg &amp;&amp; yes | sdkmanager --update &amp;&gt;/dev/null &amp;&amp; cd /workspace &amp;&amp; ./gradlew clean build --stacktrace -Dorg.gradle.daemon=true -Pandroid.useDeprecatedNdk=true"
 
-Omni-Notes
-==========
+</code></pre><div class="zeroclipboard-container">
+    <clipboard-copy aria-label="Copy" class="ClipboardButton btn btn-invisible js-clipboard-copy m-2 p-0 tooltipped-no-delay d-flex flex-justify-center flex-items-center" data-copy-feedback="Copied!" data-tooltip-direction="w" value="cd {project-folder}; rm local.properties; docker rm android-omninotes; docker run -v $PWD:/workspace --name android-omninotes tabrindle/min-alpine-android-sdk:latest bash -c &quot;mkdir -p ~/.android &amp;&amp; touch ~/.android/repositories.cfg &amp;&amp; yes | sdkmanager --update &amp;>/dev/null &amp;&amp; cd /workspace &amp;&amp; ./gradlew clean build --stacktrace -Dorg.gradle.daemon=true -Pandroid.useDeprecatedNdk=true&quot;
+" tabindex="0" role="button">
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-copy js-clipboard-copy-icon">
+    <path d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 0 1 0 1.5h-1.5a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-1.5a.75.75 0 0 1 1.5 0v1.5A1.75 1.75 0 0 1 9.25 16h-7.5A1.75 1.75 0 0 1 0 14.25Z"></path><path d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0 1 14.25 11h-7.5A1.75 1.75 0 0 1 5 9.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"></path>
+</svg>
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check js-clipboard-check-icon color-fg-success d-none">
+    <path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"></path>
+</svg>
+    </clipboard-copy>
+  </div></div>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">测试</font></font></h2><a id="user-content-test" class="anchor" aria-label="永久链接：测试" href="#test"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">要执行项目中包含的所有测试，请连接设备或模拟器，然后运行以下命令：</font></font></p>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto"><pre>./gradlew testAll</pre><div class="zeroclipboard-container">
+    <clipboard-copy aria-label="Copy" class="ClipboardButton btn btn-invisible js-clipboard-copy m-2 p-0 tooltipped-no-delay d-flex flex-justify-center flex-items-center" data-copy-feedback="Copied!" data-tooltip-direction="w" value="./gradlew testAll" tabindex="0" role="button">
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-copy js-clipboard-copy-icon">
+    <path d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 0 1 0 1.5h-1.5a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-1.5a.75.75 0 0 1 1.5 0v1.5A1.75 1.75 0 0 1 9.25 16h-7.5A1.75 1.75 0 0 1 0 14.25Z"></path><path d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0 1 14.25 11h-7.5A1.75 1.75 0 0 1 5 9.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"></path>
+</svg>
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check js-clipboard-check-icon color-fg-success d-none">
+    <path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"></path>
+</svg>
+    </clipboard-copy>
+  </div></div>
+<div class="markdown-heading" dir="auto"><h3 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">测试金字塔</font></font></h3><a id="user-content-testing-pyramid" class="anchor" aria-label="永久链接：测试金字塔" href="#testing-pyramid"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">为了加速开发，可以按照</font></font><a href="https://martinfowler.com/articles/practical-test-pyramid.html" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">测试金字塔方法</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">进行更多级别的测试，每种类型的测试都比前一种测试需要更多的时间。</font></font></p>
+<div class="markdown-heading" dir="auto"><h3 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">单元测试</font></font></h3><a id="user-content-unit-tests" class="anchor" aria-label="固定链接：单元测试" href="#unit-tests"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto"><pre>./gradlew --stacktrace <span class="pl-c1">test</span></pre><div class="zeroclipboard-container">
+    <clipboard-copy aria-label="Copy" class="ClipboardButton btn btn-invisible js-clipboard-copy m-2 p-0 tooltipped-no-delay d-flex flex-justify-center flex-items-center" data-copy-feedback="Copied!" data-tooltip-direction="w" value="./gradlew --stacktrace test" tabindex="0" role="button">
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-copy js-clipboard-copy-icon">
+    <path d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 0 1 0 1.5h-1.5a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-1.5a.75.75 0 0 1 1.5 0v1.5A1.75 1.75 0 0 1 9.25 16h-7.5A1.75 1.75 0 0 1 0 14.25Z"></path><path d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0 1 14.25 11h-7.5A1.75 1.75 0 0 1 5 9.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"></path>
+</svg>
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check js-clipboard-check-icon color-fg-success d-none">
+    <path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"></path>
+</svg>
+    </clipboard-copy>
+  </div></div>
+<div class="markdown-heading" dir="auto"><h3 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">集成测试</font></font></h3><a id="user-content-integration-tests" class="anchor" aria-label="永久链接：集成测试" href="#integration-tests"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto"><pre>./gradlew --stacktrace -Pandroid.testInstrumentationRunnerArguments.notAnnotation=androidx.test.filters.LargeTest connectedAndroidTest</pre><div class="zeroclipboard-container">
+    <clipboard-copy aria-label="Copy" class="ClipboardButton btn btn-invisible js-clipboard-copy m-2 p-0 tooltipped-no-delay d-flex flex-justify-center flex-items-center" data-copy-feedback="Copied!" data-tooltip-direction="w" value="./gradlew --stacktrace -Pandroid.testInstrumentationRunnerArguments.notAnnotation=androidx.test.filters.LargeTest connectedAndroidTest" tabindex="0" role="button">
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-copy js-clipboard-copy-icon">
+    <path d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 0 1 0 1.5h-1.5a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-1.5a.75.75 0 0 1 1.5 0v1.5A1.75 1.75 0 0 1 9.25 16h-7.5A1.75 1.75 0 0 1 0 14.25Z"></path><path d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0 1 14.25 11h-7.5A1.75 1.75 0 0 1 5 9.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"></path>
+</svg>
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check js-clipboard-check-icon color-fg-success d-none">
+    <path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"></path>
+</svg>
+    </clipboard-copy>
+  </div></div>
+<div class="markdown-heading" dir="auto"><h3 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">UI 测试</font></font></h3><a id="user-content-ui-tests" class="anchor" aria-label="永久链接：UI 测试" href="#ui-tests"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto"><pre>./gradlew --stacktrace -Pandroid.testInstrumentationRunnerArguments.annotation=androidx.test.filters.LargeTest connectedPlayDebugAndroidTest</pre><div class="zeroclipboard-container">
+    <clipboard-copy aria-label="Copy" class="ClipboardButton btn btn-invisible js-clipboard-copy m-2 p-0 tooltipped-no-delay d-flex flex-justify-center flex-items-center" data-copy-feedback="Copied!" data-tooltip-direction="w" value="./gradlew --stacktrace -Pandroid.testInstrumentationRunnerArguments.annotation=androidx.test.filters.LargeTest connectedPlayDebugAndroidTest" tabindex="0" role="button">
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-copy js-clipboard-copy-icon">
+    <path d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 0 1 0 1.5h-1.5a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-1.5a.75.75 0 0 1 1.5 0v1.5A1.75 1.75 0 0 1 9.25 16h-7.5A1.75 1.75 0 0 1 0 14.25Z"></path><path d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0 1 14.25 11h-7.5A1.75 1.75 0 0 1 5 9.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"></path>
+</svg>
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check js-clipboard-check-icon color-fg-success d-none">
+    <path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"></path>
+</svg>
+    </clipboard-copy>
+  </div></div>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">请注意，在本例中我指定了单一风格来运行测试。当您测试特定风格功能时，这可能是一种有用且更快捷的方法。</font></font></p>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">提及</font></font></h2><a id="user-content-mentioned-on" class="anchor" aria-label="固定链接：提及于" href="#mentioned-on"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><a href="https://www.xda-developers.com/omni-notes-the-open-source-note-app/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">XDA </font></font></a>
+<a href="https://www.androidauthority.com/best-note-taking-apps-for-android-205356/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Android Authority</font></font></a>
+<a href="https://www.addictivetips.com/android/note-taking-apps-for-android/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">上瘾技巧</font></font></a>
+<a href="https://techalook.com/apps/best-sticky-notes-android-iphone/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Techalook </font></font></a>
+<a href="https://dzone.com/articles/amazing-open-source-android-apps-written-in-java" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">DZone </font></font></a>
+<a href="https://www.slashgear.com/best-note-taking-apps-for-android-phones-and-tablets-04529297/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Slash Gear </font></font></a>
+<a href="https://quaap.com/D/use-fdroid" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">quaap.com </font></font></a>
+<a href="https://freeappsforme.com/productivity-apps-android-ios-2017" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Freeappsforme.com</font></font></a></p>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">由</font></font></h2><a id="user-content-developed-with-love-and-passion-by" class="anchor" aria-label="永久链接：由爱与激情开发" href="#developed-with-love-and-passion-by"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<ul dir="auto">
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Federico Iosue-</font></font><a href="https://federico.iosue.it" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">网站</font></font></a></li>
+<li><a href="https://github.com/federicoiosue/Omni-Notes/graphs/contributors"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">其他贡献者</font></font></a></li>
+</ul>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">执照</font></font></h2><a id="user-content-license" class="anchor" aria-label="永久链接：许可证" href="#license"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<div class="snippet-clipboard-content notranslate position-relative overflow-auto"><pre class="notranslate"><code>Copyright 2013-2024 Federico Iosue
 
-[![License](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
-[![CI workflow](https://github.com/federicoiosue/Omni-Notes/workflows/CI/badge.svg)](https://github.com/federicoiosue/Omni-Notes/actions?query=workflow%3ACI)
-[![CodeQL Workflow](https://github.com/federicoiosue/Omni-Notes/workflows/CodeQL/badge.svg)](https://github.com/federicoiosue/Omni-Notes/actions?query=workflow%3ACodeQL)
-[![Sonarcloud Coverage](https://sonarcloud.io/api/project_badges/measure?project=omni-notes&metric=coverage)](https://sonarcloud.io/dashboard?id=omni-notes)
-[![Sonarcloud Maintainability](https://sonarcloud.io/api/project_badges/measure?project=omni-notes&metric=sqale_rating)](https://sonarcloud.io/dashboard?id=omni-notes)
-[![Crowdin](https://d322cqt584bo4o.cloudfront.net/omni-notes/localized.png)](https://crowdin.com/project/omni-notes)
-[![GitHub release](https://badgen.net/github/release/federicoiosue/Omni-Notes)](https://github.com/federicoiosue/Omni-Notes/releases/latest)
-[![GitHub release](https://img.shields.io/github/downloads/federicoiosue/Omni-Notes/total?label=Github%20Downloads)](https://github.com/federicoiosue/Omni-Notes/releases)
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
 
-Omni-Notes is a note taking <b>open-source</b> application aimed to have both a <b>simple interface</b> while keeping <b>smart</b> behavior. This application expands on the generic note taking features of other basic applications and allows for users to attach image and video files, use a variety of widgets, tag and organize notes, search through notes, and customize the applications UI.
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
 
-The project was inspired by the absence of such applications compatible with old phones and old versions of Android. It aims to provide an attractive look and follow the most recent design guidelines of the Google operating system that is not currently avaialbe for older devices.
+You should have received a copy of the GNU General Public License
+along with this program.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
+</code></pre><div class="zeroclipboard-container">
+    <clipboard-copy aria-label="Copy" class="ClipboardButton btn btn-invisible js-clipboard-copy m-2 p-0 tooltipped-no-delay d-flex flex-justify-center flex-items-center" data-copy-feedback="Copied!" data-tooltip-direction="w" value="Copyright 2013-2024 Federico Iosue
 
-**Follow the developments and post your comments and advice on Telegram Community at https://t.me/omninotes**
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
 
-Help to keep translations updated is always welcome, if you want give a hand checkout the translation project on *https://translate.omninotes.app.*
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
 
-<a href="https://f-droid.org/repository/browse/?fdid=it.feio.android.omninotes.foss" target="_blank">
-<img src="https://f-droid.org/badge/get-it-on.png" alt="Get it on F-Droid" height="90"/></a>
-<a href="https://play.google.com/store/apps/details?id=it.feio.android.omninotes" target="_blank">
-<img src="https://play.google.com/intl/en_us/badges/images/generic/en-play-badge.png" alt="Get it on Google Play" height="90"/></a>
-
-If you're willing to help speeding up developments please also opt-in for the Alpha version of the app following continuous delivery principles:
-
-<a href="https://play.google.com/store/apps/details?id=it.feio.android.omninotes.alpha" target="_blank">
-<img src="https://play.google.com/intl/en_us/badges/images/generic/en-play-badge.png" alt="Get it on Google Play" height="90"/></a>
-
-## Features
-
-Currently the following functions are implemented:
-
-* <b>Material Design interface:</b> Basic add, modify, archive, trash and delete notes actions
-* <b> Advanced Navigation and Sharing: </b>Share, merge and search notes, Export/import notes to backup
-* <b> Media Attachments: </b> Image, audio and generic file attachments
-* <b>Organization: </b>Manage your notes using tags and categories
-* <b>Specialty Features:</b>To-do list, Sketch-note mode, Google Now integration: just tell "write a note" followed by the content
-* <b> Widget Capabilities: </b>Multiple widgets, DashClock extension, Android 4.2 lockscreen compatibility, Notes shortcut on home screen
-* <b> Internationalization: </b>Multilanguage: 30+ languages supported: https://crowdin.com/project/omni-notes
-
-
-Future Developments:
-
-* Notes sychronization
-* Web interface to manage notes ([stub project](https://github.com/federicoiosue/omni-notes-desktop))
-
-You can find a complete changelog inside the application settings menu!
-
-If you need some help on how to use the application you'll find everything you need in the [Help Online](assets/help/help.md) section.
-
-[![Promo video](https://raw.githubusercontent.com/federicoiosue/Omni-Notes/develop/assets/promo_video_thumb.png)](https://youtu.be/0Z_-SgT3qYs "Promo video")
-![](https://raw.githubusercontent.com/federicoiosue/Omni-Notes/develop/assets/play_store_pics/02.png)
-![](https://raw.githubusercontent.com/federicoiosue/Omni-Notes/develop/assets/play_store_pics/03.png)
-![](https://raw.githubusercontent.com/federicoiosue/Omni-Notes/develop/assets/play_store_pics/04.png)
-![](https://raw.githubusercontent.com/federicoiosue/Omni-Notes/develop/assets/play_store_pics/05.png)
-![](https://raw.githubusercontent.com/federicoiosue/Omni-Notes/develop/assets/play_store_pics/06.png)
-![](https://raw.githubusercontent.com/federicoiosue/Omni-Notes/develop/assets/play_store_pics/07.png)
-![](https://raw.githubusercontent.com/federicoiosue/Omni-Notes/develop/assets/play_store_pics/08.png)
-![](https://raw.githubusercontent.com/federicoiosue/Omni-Notes/develop/assets/play_store_pics/09.png)
-![](https://raw.githubusercontent.com/federicoiosue/Omni-Notes/develop/assets/play_store_pics/10.png)
-![](https://raw.githubusercontent.com/federicoiosue/Omni-Notes/develop/assets/play_store_pics/11.png)
-![](https://raw.githubusercontent.com/federicoiosue/Omni-Notes/develop/assets/play_store_pics/12.png)
-
-## User guide
-
-Look into the wiki for GIFs-based tutorials: [LINK](https://github.com/federicoiosue/Omni-Notes/wiki)
-
-## Build
-
-Watch the following terminal session recording on how to compile distributable files or follow the instructions below
-[![asciicast](https://asciinema.org/a/102898.png)](https://asciinema.org/a/102898)
-
-Build instructions:
-* Enter your computer's terminal
-* Clone the application by using the link to the repository (https://github.com/federicoiosue/Omni-Notes), this will take a couple minutes
-* Enter the Omni-Notes folder using the command $cd Omni-Notes
-* Check that the branch is up to date by using the command $git status
-* Enter the command $export ANDROID_HOME=/home/fede/Android/Sdk (for Windows $set ANDROID_HOME=/home/fede/Android/Sdk)
-* Enter the command $./gradlew assemble
-* Allow a couple minutes for the application to build.
-* View the outputs of the build using the command $ls -l omniNotes/build/outputs/apk
-
-
-To be sure that build environment is fully compliant with the project the following command creates a container with all the needed tools to compile the code:
-
-```
-cd {project-folder}; rm local.properties; docker rm android-omninotes; docker run -v $PWD:/workspace --name android-omninotes tabrindle/min-alpine-android-sdk:latest bash -c "mkdir -p ~/.android && touch ~/.android/repositories.cfg && yes | sdkmanager --update &>/dev/null && cd /workspace && ./gradlew clean build --stacktrace -Dorg.gradle.daemon=true -Pandroid.useDeprecatedNdk=true"
-
-```
-
-## Test
-
-To execute all tests included into the project connect a device or emulator, then run the following command:
-
-```shell
-./gradlew testAll
-```
-
-### Testing Pyramid
-
-To speedup the development more levels of testing are available following the [testing pyramid approach](https://martinfowler.com/articles/practical-test-pyramid.html), each type test requires more time than the previous one.
-
-### Unit Tests
-```shell
-./gradlew --stacktrace test
-```
-
-### Integration Tests
-```shell
-./gradlew --stacktrace -Pandroid.testInstrumentationRunnerArguments.notAnnotation=androidx.test.filters.LargeTest connectedAndroidTest
-```
-
-### UI Tests
-```shell
-./gradlew --stacktrace -Pandroid.testInstrumentationRunnerArguments.annotation=androidx.test.filters.LargeTest connectedPlayDebugAndroidTest
-```
-Notice that in this case I specified a single flavor to run tests on. This could be a useful and faster approach when you're testing specific flavor features.  
-
-## Mentioned on
-
-[XDA](https://www.xda-developers.com/omni-notes-the-open-source-note-app/)
-[Android Authority](https://www.androidauthority.com/best-note-taking-apps-for-android-205356/)
-[Addictive Tips](https://www.addictivetips.com/android/note-taking-apps-for-android/)
-[Techalook](https://techalook.com/apps/best-sticky-notes-android-iphone/)
-[DZone](https://dzone.com/articles/amazing-open-source-android-apps-written-in-java)
-[Slash Gear](https://www.slashgear.com/best-note-taking-apps-for-android-phones-and-tablets-04529297/)
-[quaap.com](https://quaap.com/D/use-fdroid)
-[Freeappsforme.com](https://freeappsforme.com/productivity-apps-android-ios-2017)
-
-## Developed with love and passion by
-
-* Federico Iosue - [Website](https://federico.iosue.it)
-* [Other contributors](https://github.com/federicoiosue/Omni-Notes/graphs/contributors)
-
-## License
-
-
-    Copyright 2013-2024 Federico Iosue
-    
-    This program is free software: you can redistribute it and/or modify
-    it under the terms of the GNU General Public License as published by
-    the Free Software Foundation, either version 3 of the License, or
-    (at your option) any later version.
-    
-    This program is distributed in the hope that it will be useful,
-    but WITHOUT ANY WARRANTY; without even the implied warranty of
-    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-    GNU General Public License for more details.
-    
-    You should have received a copy of the GNU General Public License
-    along with this program.  If not, see <http://www.gnu.org/licenses/>.
-
+You should have received a copy of the GNU General Public License
+along with this program.  If not, see <http://www.gnu.org/licenses/>." tabindex="0" role="button">
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-copy js-clipboard-copy-icon">
+    <path d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 0 1 0 1.5h-1.5a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-1.5a.75.75 0 0 1 1.5 0v1.5A1.75 1.75 0 0 1 9.25 16h-7.5A1.75 1.75 0 0 1 0 14.25Z"></path><path d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0 1 14.25 11h-7.5A1.75 1.75 0 0 1 5 9.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"></path>
+</svg>
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check js-clipboard-check-icon color-fg-success d-none">
+    <path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"></path>
+</svg>
+    </clipboard-copy>
+  </div></div>
+</article></div>
